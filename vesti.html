@@ -1,0 +1,327 @@
+<!doctype html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <script src="js.js"></script>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+          integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Proza+Libre&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css">
+    <link rel="stylesheet" type="text/css" href="fontawesome/css/all.css">
+    <link rel="stylesheet" href="custom.css">
+    <link href="https://fonts.googleapis.com/css2?family=Kalam:wght@300&display=swap" rel="stylesheet">
+
+    <title>Home</title>
+</head>
+<body>
+
+<div class="container-fluid px-0 px-xl-5">
+    <div class="px-0 px-xl-5">
+        <header>
+            <section class="pt-4 pb-4">
+                <div class="container">
+                    <div class="d-flex justify-content-between">
+                        <div class="">
+                            <a href="index.html"> <img src="img/ksel.PNG" class="img-fluid"></a>
+                        </div>
+                        <div>
+                            <nav class="navbar navbar-expand-lg p-0">
+                                <button id="hamburger-btn" onclick="changeIcon()" class="navbar-toggler position-absolute" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                                    <span id="hamburger"><i class="fas fa-2x fa-ellipsis-v greenColor"></i> <i class="fas fa-times fa-2x d-none greenColor"></i></span>
+                                </button>
+                                <div class="collapse mt-5 mt-lg-0  navbar-collapse" id="navbarNav" style="z-index: 2">
+                                    <ul class="navbar-nav radius-bottom mt-5 mt-lg-0 bg-white pl-4 pl-lg-0 py-4 py-lg-0">
+                                        <li class="nav-item d-inline d-lg-none d-flex flex-row justify-content-start pb-3 px-2 px-lg-0">
+                                            <div class="pt-3 px-1 px-lg-0">
+                                                <select class="selectpicker border-0 " data-width="fit">
+                                                    <option class="pt-0 mt-0"
+                                                            data-content='<span class="flag-icon flag-icon-us"></span> English'>SR
+                                                    </option>
+                                                    <option data-content='<span class="flag-icon flag-icon-mx"></span> Español'>US
+                                                    </option>
+                                                </select>
+                                            </div>
+                                            <div class="d-flex pl-4">
+                                                <input type="text" class="form-control border-right-0 py-3 h-100 radius-input1" placeholder="Traži"">
+                                                <span class="input-group-text bg-white border-left-0 rounded-right-side radius-input2 pr-3"><i class="fal fa-search fa-lg my-auto text-secondary"></i></span>
+                                            </div>
+                                        </li>
+                                        <li class="nav-item border-right d-flex mx-0">
+                                            <a class="nav-link my-auto" href="nasaspecijalnost.html">
+                                                <p class="m-0 fontsize-header text-nowrap px-2">Naša Specijalnost</p>
+                                                <span class="sr-only">(current)</span>
+                                            </a>
+                                        </li>
+                                        <li class="nav-item d-flex mx-0">
+                                            <a class="nav-link my-auto" href="nastim.html">
+                                                <p class="m-0 fontsize-header text-nowrap px-2">Naš tim</p>
+                                                <span class="sr-only">(current)</span>
+                                            </a>
+                                        </li>
+                                        <li class="nav-item active rounded-pill border-right d-flex mx-0">
+                                            <a class="nav-link my-auto" href="vesti.html">
+                                                <p class="m-0 fontsize-header text-nowrap px-2">Vesti</p>
+                                                <span class="sr-only">(current)</span>
+                                            </a>
+                                        </li>
+                                        <li class="nav-item border-right d-flex mx-0">
+                                            <a class="nav-link my-auto" href="#">
+                                                <p class="m-0 fontsize-header text-nowrap px-2">Karijera</p>
+                                                <span class="sr-only">(current)</span>
+                                            </a>
+                                        </li>
+                                        <li class="nav-item border-right d-flex mx-0">
+                                            <a class="nav-link my-auto" href="#">
+                                                <p class="m-0 fontsize-header text-nowrap px-2">O nama</p>
+                                                <span class="sr-only">(current)</span>
+                                            </a>
+                                        </li>
+                                        <li class="nav-item d-flex mx-0">
+                                            <a class="nav-link my-auto" href="kontakt.html">
+                                                <p class="m-0 fontsize-header text-nowrap px-2">Kontakt</p>
+                                                <span class="sr-only">(current)</span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                    <ul class="navbar-nav bg-white pl-3 pl-lg-0 d-none d-lg-flex ">
+                                        <li class="nav-item">
+                                            <span><i class="fal fa-search fa-2x pl-2 pr-5 mr-2"></i></span>
+                                        </li>
+                                        <li class="nav-item">
+                                            <div class="d-flex h-100">
+                                                <select class="selectpicker border-0 my-auto" data-width="fit">
+                                                    <option class="pt-0 mt-0"
+                                                            data-content='<span class="flag-icon flag-icon-us"></span> English'>SR
+                                                    </option>
+                                                    <option data-content='<span class="flag-icon flag-icon-mx"></span> Español'>US
+                                                    </option>
+                                                </select>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </header>
+
+        <main>
+
+            <section class="pt-5 pb-5 bgc-green radius" id="sve_vestis">
+                <div class="container text-white pt-0 pt-lg-4 pb-0 pb-lg-3 ">
+                    <div class="row m-0 px-3 px-lg-0">
+                        <div class="col-9 col-lg-6 p-0">
+                            <h3 class="fontsize3 pb-0 pb-lg-3">Vesti</h3>
+                            <p class="pl-2 pb-3 p-0 fontsize-p pr-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                            <div class="row m-0 pt-0 pt-lg-5 d-none d-lg-flex">
+                                <div class="col-5 p-0 px-2 " id="white-btn">
+                                    <a class="btn-nasaSpec btn-lg btn-block btn-radius py-3 text-center" href="#aktuelne_vesti">Aktuelne vesti</a>
+                                </div>
+                                <div class="col-4 pt-4">
+                                    <img src="img/image4.png" class="img-fluid position-absolute ">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-3 offset-0 offset-lg-3 pl-0 pl-lg-5">
+                            <img src="img/image11.png" class="img-fluid pl-0 pl-lg-4">
+                        </div>
+                    </div>
+                    <div class="row m-0 px-3 px-lg-0 d-flex d-lg-none">
+                        <div class="col-3 offset-1 pt-3">
+                            <img src="img/image5.png" class="img-fluid position-absolute">
+                        </div>
+                        <div class="col-7 offset-1" id="white-btn">
+                            <a class="btn-nasaSpec btn-lg btn-block btn-radius py-2 text-center" href="#aktuelne_vesti" style="font-size: 15px">Aktuelne vesti</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="pt-5 pb-5 radius" id="aktuelne_vesti">
+                <div class="container pt-0 pt-lg-5 pb-0 pb-lg-5">
+                    <div class="row m-0 px-3 px-lg-0 a-link">
+                        <div class="col-12 col-lg-8 p-0 align-self-center">
+                            <div class="row m-0 pt-0 pt-lg-5">
+                                <div class="col-12 col-lg-9 p-0 pt-0 pt-lg-5 pr-4 pb-2 pb-lg-5 ">
+                                    <h3 class="pb-2 fontsize-gray" style="font-size: 37px">Lorem ipsum dolor sit amet</h3>
+                                    <p class="fontsize-gray">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex <span class="d-none d-lg-inline"> ea commodo
+                                        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+                                        dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+                                        sunt in culpa qui officia deserunt mollit anim id est laborum.</span></p>
+                                    <hr class="border  mr-0 line-bold1">
+                                    <a href="vesti2.html" class="grayColor mr-0"><p class="text-right">Saznaj više ></p></a>
+                                </div>
+                            </div>
+                            <div class="row m-0 pt-5 d-none d-lg-block">
+                                <div class="col-4 p-0 pt-4 pb-5 pr-4 " id="green-btn">
+                                    <a class="btn-saznajVise text-center btn-lg btn-block btn-radius py-3" href="#sve_vestis">Prikaži sve vesti</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-4 p-0 pr-3">
+                            <h3 class="fontsize-gray" style="font-size: 37px">Lorem ipsum <br> dolor sit amet</h3>
+                            <p class="pt-2 fontsize-gray">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+                                nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+                                irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                                pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                                deserunt mollit anim id est laborum.</p>
+                            <hr class="border mr-0 line-bold2">
+                            <a href="vesti2.html" class="mr-0 grayColor"><p class="text-right">Saznaj više ></p></a>
+
+                            <h3 class="pt-2 pt-lg-5 fontsize-gray" style="font-size: 37px">Lorem ipsum <br> dolor sit amet</h3>
+                            <p class="pt-2 fontsize-gray">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+                                nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                            <hr class="border mr-0 line-bold2" >
+                            <a href="vesti2.html" class="mr-0 grayColor"><p class="text-right">Saznaj više ></p></a>
+                        </div>
+                    </div>
+                    <div class="row px-3 m-0 d-block d-lg-none">
+                        <div class="offset-5 col-7 " id="green-btn">
+                            <a class="btn-saznajVise text-center btn-lg btn-block btn-radius" href="#sve_vestis" style="font-size: 14px">Prikaži sve vesti</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+        </main>
+
+        <footer>
+            <section class="radius bg-light pt-0 pt-lg-5 pb-0 pb-lg-5">
+                <div class="container pt-4 pt-lg-5 pb-5">
+                    <div class="row m-0">
+                        <div class="col-12 p-0 col-lg-6">
+                            <div class="row m-0">
+                                <div class="col-7 p-0 col-lg-8">
+                                    <img src="img/footer.png" class="img-fluid">
+                                </div>
+                                <div class="col-5 p-0 d-block d-lg-none">
+                                    <ul class="nav d-block text-right">
+                                        <li class="nav-item">
+                                            <a href="#"><p class="m-0">Nasa specijalnost</p></a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a href="#"><p class="m-0">Naš tim</p></a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a href="#"><p class="m-0">Vesti</p></a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a href="#"><p class="m-0">Karijera</p></a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a href="#"><p class="m-0">O nama</p></a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a href="#"><p class="m-0">Kontakt</p></a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="col-12 col-lg-4 align-self-end d-none d-lg-block">
+                                    <div class="d-flex justify-content-center pt-3">
+                                <span class="rounded-circle bg-secondary d-flex icon-size mr-3">
+                                    <i class="fab fa-facebook-f fa-lg m-auto text-white"></i>
+                                </span>
+                                        <span class="rounded-circle bg-secondary d-flex icon-size">
+                                    <i class="fab fa-linkedin-in fa-lg m-auto text-white"></i>
+                                </span>
+                                        <span class="rounded-circle bg-secondary d-flex icon-size ml-3">
+                                    <i class="fab fa-instagram fa-lg m-auto text-white"></i>
+                                </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 d-block d-lg-none p-0 pt-2">
+                            <div class="d-flex flex-row">
+                                <input type="text" class="form-control border-right-0 py-3 h-100 radius-input1" placeholder="Traži">
+                                <span class="input-group-text bg-white border-left-0 rounded-right-side radius-input2 pr-3"><i class="fal fa-search fa-lg my-auto text-secondary"></i></span>
+                            </div>
+                            <div class="d-flex justify-content-center pt-3">
+                                <span class="rounded-circle bg-secondary d-flex icon-size mr-3">
+                                    <i class="fab fa-facebook-f fa-lg m-auto text-white"></i>
+                                </span>
+                                <span class="rounded-circle bg-secondary d-flex icon-size">
+                                    <i class="fab fa-linkedin-in fa-lg m-auto text-white"></i>
+                                </span>
+                                <span class="rounded-circle bg-secondary d-flex icon-size ml-3">
+                                    <i class="fab fa-instagram fa-lg m-auto text-white"></i>
+                                </span>
+                            </div>
+                            <p class="pt-3 m-0 grayColor" style="font-size: 11px">KSEL Advokati | Sva prava zadržana, 2020. Built by Singularity.is </p>
+                        </div>
+                        <div class="col-12 p-0 col-lg-6 pl-5 d-none d-lg-block">
+                            <div class="d-flex flex-column justify-content-between h-100">
+                                <div>
+                                    <div>
+                                        <ul class="nav pl-4">
+                                            <li class="nav-item d-flex">
+                                                <a href="#"><p class="pr-2">Nasa Specijalnost</p></a>
+                                                <p>|</p>
+                                            </li>
+                                            <li class="nav-item d-flex px-1">
+                                                <a href="#"><p class="px-2">Naš tim</p></a>
+                                                <p>|</p>
+                                            </li>
+                                            <li class="nav-item d-flex px-1">
+                                                <a href="#"><p class="px-2">Vesti</p></a>
+                                                <p>|</p>
+                                            </li>
+                                            <li class="nav-item d-flex px-1">
+                                                <a href="#"><p class="px-2">Karijera</p></a>
+                                                <p>|</p>
+                                            </li>
+                                            <li class="nav-item d-flex px-1">
+                                                <a href="#"><p class="px-2">O nama</p></a>
+                                                <p>|</p>
+                                            </li>
+                                            <li class="nav-item d-flex ">
+                                                <a href="#"><p class="px-2">Kontakt</p></a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="d-flex">
+                                        <input type="text" class="ml-3 pl-4 form-control border-right-0 py-3 h-100 radius-input1" placeholder="Traži " style="font-size: 25px">
+                                        <span class="input-group-text bg-white border-left-0 rounded-right-side radius-input2 pr-3"><i class="fal fa-search fa-2x my-auto text-secondary"></i></span>
+
+                                    </div>
+
+                                </div>
+                                <div class="d-flex pl-5">
+                                    <p class="text-center grayColor">KSEL Advokati | Sva prava zadržana, 2020. Built by Singularity.is </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </footer>
+
+    </div>
+</div>
+
+
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous"></script>
+</body>
+</html>
